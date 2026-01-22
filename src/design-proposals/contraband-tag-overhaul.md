@@ -1,7 +1,5 @@
 # Contraband Tagging Overhaul
 
-Your title should convey the basic jist of your proposed changes. It should be short because the text will be linked in the sidebar.
-
 | Designers | Implemented | GitHub Links |
 |-----------|---|--------------|
 | 2DSiggy   | :x: No | TBD       |
@@ -19,10 +17,6 @@ Contraband in game is seen as a very on or off system. It is frankly a joke that
 Also notable is that this would make owning an unauthorized firearm of any kind would be the same crime as owning a Syndicate Firearm. The only difference being security is not allowed to use Syndicate weapons.
 
 Important context would be that firearm contraband, wearable contraband, and weapon contraband would be unmodified by context from being a Syndicate source.
-
-Summarize any information that is needed to contextualize the proposed changes, e.g. the current state of the game.
-
-Also link any relevant discussions on Discord, GitHub, or HackMD that are relevant to the proposal.
 
 ## Features to be added
 
@@ -58,8 +52,6 @@ Firearm Contraband is self-explanatory. Weapons that are firearms would fit into
 
 Terroristic Contraband is for items purely for causing mass death and destruction. The singularity beacon, syndicate bomb, and the various combat mechs would be added to this category, alongside cat ears to maintain the joke of cat ears being illegal items.
 
-Give a description of what game mechanics you would like to add or change. This should be a general overview, with enough details on critical design points that someone can directly implement the feature from this design document. Exact numbers for game balance however are not necessary, as these can be adjusted later either during development or after it has been implemented, but mention *what* will have to be balanced and what needs to be considered when doing so.
-
 ## Game Design Rationale
 
 The fact syndicate branded clothing can be treated with the same legal severity as a high powered grenade launcher by a power-tripping Magistrate or Warden has always been a bother to me. The same for a Heretic's blade and their Codex Cicatrix. These items though being similar in origin are not anywhere nearly as close with their actual threat presented to the station by existing. Having an energy dagger shouldn't be a greater crime than owning an unauthorized WT550.
@@ -68,22 +60,10 @@ The fact syndicate branded clothing can be treated with the same legal severity 
 
 This would primarily affect security and antagonists. Security would have less incentive to waste their time pursuing people with gag items while keeping them as confiscatable equipment. Items that are specifically for combat would still be sentence-worthy but items such as Syndicate Jaws of Life and the Cybersun pen would be a simple "confiscate on sight" issue.
 
-Consider addressing:
-- At what point in the round does the feature come into play? Does it happen every round? How does it affect the round pace?
-- How do you wish for players to interact with your feature and how should they not interact with it? How is this mechanically enforced?
-
 ## Administrative & Server Rule Impact (if applicable)
 
 Outside of adjustments to space law and security needing to properly enforce space law, this would have little if any impact on server administration.
 
-- Does this feature introduce any new rule enforcement challenges or additional workload for admins?
-- Could this feature increase the likelihood of griefing, rule-breaking, or player disputes?
-- How are the rules enforced mechanically by way the feature will be implemented?
-
 # Technical Considerations
 
 This overhaul should not pose any difficulties for performance as it would be mostly yml and ftl. Difficulty would be in ensuring all items use the new contraband tagging though it can be done when new items are added to the game
-
-- Are there any anticipated performance impacts?
-- Does the feature require new systems, UI elements, or refactors of existing ones?
-- For required UI elements, give a short description or a mockup of how they should look like (for example a radial menu, actions & alerts, navmaps, or other window types)
