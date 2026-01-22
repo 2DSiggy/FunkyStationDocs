@@ -8,13 +8,17 @@ Your title should convey the basic jist of your proposed changes. It should be s
 
 ## Overview
 
-This overhaul to contraband tagging is intended to make a more sensible. This is going to primarily be done by making contraband tagging deeper than a simple "Minor", "Major", "Highly illegal" system that provides little nuance. This is also designed to make it so certain highly illegal items can receive approval in round from players of authority (Nanotrasen Representatives, Magistrates, or Internal Affairs Agents.)
+This overhaul to contraband tagging is intended to make a more sensible. This is going to primarily be done by making contraband tagging deeper than a simple "Minor", "Major", "Highly illegal" system that provides little nuance. This is also designed to make it so certain highly illegal items can receive approval in round from players of authority (Nanotrasen Representatives, Magistrates, or Internal Affairs Agents.) This also makes the Highly Illegal category less important.
+
+Space law would also be updated to accomodate these changes.
 
 ## Background
 
-Contraband in game is seen as a very on or off system. It is frankly a joke that items such as the Antimov law board are treated with the same legal severity as a syndicate scarf even if it's only on paper. Such things leads to security players deciding that since they have nothing better to do, to pursue people using joke items that were either purchased for a gag or found in maintenance or other methods.
+Contraband in game is seen as a very on or off system. It is frankly a joke that items such as the Antimov law board are treated with the same legal severity as a syndicate scarf even if it's only on paper. Such things lead to security players deciding that since they have nothing better to do, to pursue people using joke items that were either purchased for a gag or found in maintenance or other methods.
 
-These interactions are headaches and though they can provide roleplay opportunity for lawyers, these interactions are more of a headache for the person with said contraband than enjoyable for anyone involved. Lawyers making people's sentences longer by arguing with the warden is not something someone wants to deal with
+Also notable is that this would make owning an unauthorized firearm of any kind would be the same crime as owning a Syndicate Firearm. The only difference being security is not allowed to use Syndicate weapons.
+
+Important context would be that firearm contraband, wearable contraband, and weapon contraband would be unmodified by context from being a Syndicate source.
 
 Summarize any information that is needed to contextualize the proposed changes, e.g. the current state of the game.
 
@@ -28,11 +32,11 @@ The main feature that would be added or changed is the removal of the "Highly il
 
 #### Souvenir Contraband
 
-Souvenir Contraband as a tag would be added to indicate useless or gag items. Items that would fit into this category would mainly be items from the pointless category. Cat ears being the only exclusion.
+Souvenir Contraband as a tag would be added to indicate useless or gag items. Items that would fit into this category would mainly be items from the pointless category. Cat ears being the only exclusion. Notably, Souvenirs would not be confiscatable until the owner has committed a different crime.
 
 #### Utility Contraband
 
-Utility Contraband is for primarily items that are used for their unique features. Items such as Voice Masks, Chameleon Clothing, Cybersun pens, and Binary encryption keys.
+Utility Contraband is for primarily items that are used for their unique features. Items such as Magboots, Voice Masks, Chameleon Clothing, Cybersun pens, and Binary encryption keys.
 
 #### Chemical Contraband
 
@@ -40,7 +44,7 @@ Chemical Contraband is for items and purchases that are primarily reagents. Inte
 
 #### Weapon Contraband
 
-Weapon Contraband would be the category for all non-firearm weapons. Energy Swords, Fire Axes, Syndicate Knuckle Dusters and similar items that would be tagged as Weapon Contraband.
+Weapon Contraband would be the category for all non-firearm weapons. Energy Swords, Combat knives, Throwing knioves, and similar items that would be tagged as Weapon Contraband.
 
 #### Armor Contraband
 
@@ -48,7 +52,7 @@ Armor Contraband would consist of items designed for protection. Energy shields,
 
 #### Firearm Contraband
 
-Firearm Contraband is self explanatory. Weapons that are firearms would fit into this category.
+Firearm Contraband is self-explanatory. Weapons that are firearms would fit into this category. Ammunition could be added to the category. Notably is that all forms of unauthorized firearms would be added to this category. Having an unauthorized Nanotrasen firearm would be the same crime as having a C-20r.
 
 #### Terroristic Contraband
 
@@ -58,10 +62,11 @@ Give a description of what game mechanics you would like to add or change. This 
 
 ## Game Design Rationale
 
-Consider addressing:
-- How does the feature align with our [Core Design Principles](../design/design-principles.md) and game philosphy?
+The fact syndicate branded clothing can be treated with the same legal severity as a high powered grenade launcher by a power-tripping Magistrate or Warden has always been a bother to me. The same for a Heretic's blade and their Codex Cicatrix. These items though being similar in origin are not anywhere nearly as close with their actual threat presented to the station by existing. Having an energy dagger shouldn't be a greater crime than owning an unauthorized WT550.
 
 ## Roundflow & Player interaction
+
+This would primarily affect security and antagonists. Security would have less incentive to waste their time pursuing people with gag items while keeping them as confiscatable equipment. Items that are specifically for combat would still be sentence-worthy but items such as Syndicate Jaws of Life and the Cybersun pen would be a simple "confiscate on sight" issue.
 
 Consider addressing:
 - At what point in the round does the feature come into play? Does it happen every round? How does it affect the round pace?
@@ -69,11 +74,15 @@ Consider addressing:
 
 ## Administrative & Server Rule Impact (if applicable)
 
+Outside of adjustments to space law and security needing to properly enforce space law, this would have little if any impact on server administration.
+
 - Does this feature introduce any new rule enforcement challenges or additional workload for admins?
 - Could this feature increase the likelihood of griefing, rule-breaking, or player disputes?
 - How are the rules enforced mechanically by way the feature will be implemented?
 
 # Technical Considerations
+
+This overhaul should not pose any difficulties for performance as it would be mostly yml and ftl. Difficulty would be in ensuring all items use the new contraband tagging though it can be done when new items are added to the game
 
 - Are there any anticipated performance impacts?
 - Does the feature require new systems, UI elements, or refactors of existing ones?
