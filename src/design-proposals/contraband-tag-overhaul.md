@@ -22,7 +22,7 @@ Important context would be that firearm contraband, wearable contraband, and wea
 
 ### New contraband subcategories
 
-The main feature that would be added or changed is the removal of the "Highly illegal" contraband tags in exchange for more specific purpose related tags. Said items would still be illegal and should be confiscated but punishments should be lighter for various pieces of contraband. This would involve adding seven new contraband categories.
+The main feature that would be added or changed is the effective removal of the "Highly illegal" contraband tags in exchange for more specific purpose related tags. Said items would still be illegal and should be confiscated but punishments should be lighter for various pieces of contraband. This would involve adding seven new contraband categories.
 
 #### Souvenir Contraband
 
